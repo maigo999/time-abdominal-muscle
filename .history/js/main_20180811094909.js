@@ -7,7 +7,6 @@ let res;
 let calcResult;
 const button = document.getElementById("button");
 const result = document.getElementById("result");
-
 // ミリ秒を取得
 function hard() {
   milliseconds = today.getMilliseconds();
@@ -18,8 +17,6 @@ function nomal() {
   seconds = today.getSeconds();
   str = String(seconds).split("");
 }
-
-//モードチェック判定
 function modecheck() {
   if (document.getElementById("checkbox").checked) {
     console.log("ハードモード");

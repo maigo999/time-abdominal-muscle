@@ -18,7 +18,6 @@ function nomal() {
   seconds = today.getSeconds();
   str = String(seconds).split("");
 }
-
 //モードチェック判定
 function modecheck() {
   if (document.getElementById("checkbox").checked) {
